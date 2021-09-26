@@ -19,5 +19,11 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.13"
+  },
+  "prettier": {
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "es5",
+    "tabWidth": 2
   }
 }
