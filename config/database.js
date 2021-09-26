@@ -9,15 +9,17 @@ const sequelize = new Sequelize({
   password: process.env.DB_PASSWORD,
 });
 
-async function testConnection(sequelize) {
+async function testConnection() {
   try {
     await sequelize.authenticate();
+    // eslint-disable-next-line no-console
     console.log('DB connection has been established successfully.');
   } catch (error) {
+    // eslint-disable-next-line no-console
     console.error('Unable to connect to the database:', error);
   }
 }
 
-testConnection(sequelize);
+testConnection();
 
 module.exports = sequelize;

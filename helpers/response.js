@@ -1,6 +1,4 @@
-exports.json = function (message, data) {
-  return {
-    message: message,
-    data: data,
-  };
-};
+exports.json = (message = null, data = null) => ({
+  message,
+  data,
+});
