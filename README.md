@@ -2,6 +2,8 @@
 
 [![JavaScript](https://img.shields.io/badge/JavaScript-%23f0db4f?style=flat&logoColor=%23333&logo=javascript)](https://www.javascript.com/)
 
+A Proof of Concept JSON API that was designed to serve as the backend for [TukarKoin App](https://github.com/nevrending/tukarkoin-app)
+
 ## Requirements
 
 1. Node ^14
