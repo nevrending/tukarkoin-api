@@ -11,10 +11,10 @@ module.exports = (sequelize, DataTypes) => {
       this.user = this.belongsTo(models.User, {
         foreignKey: 'user_id',
       });
-      this.bid_order = this.hasOne(models.Order, {
+      this.bid_order = this.belongsTo(models.Order, {
         foreignKey: 'bid_order_id',
       });
-      this.ask_order = this.hasOne(models.Order, {
+      this.ask_order = this.belongsTo(models.Order, {
         foreignKey: 'ask_order_id',
       });
     }
