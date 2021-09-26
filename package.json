@@ -2,13 +2,22 @@
   "name": "tukarkoin-api",
   "version": "0.0.0",
   "private": true,
+  "description": "TukarKoin API Proof of Concept",
+  "repository": "https://github.com/nevrending/tukarkoin-api",
+  "license": "Proprietary",
+  "author": "Yefta Sutanto",
   "scripts": {
+    "dev": "DEBUG=tukarkoin-api:* nodemon ./bin/www",
     "start": "node ./bin/www"
   },
   "dependencies": {
+    "@godaddy/terminus": "^4.9.0",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "express": "~4.16.1",
     "morgan": "~1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
   }
 }
