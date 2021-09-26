@@ -21,7 +21,7 @@
 
 ## Caveats
 
-1. N/A
+1. JWT errors are still returned as HTML response instead of JSON response
 
 ## Libraries
 
@@ -40,6 +40,8 @@ This project uses the following libraries, including but not limited to:
 The following can be made as future improvements to this application, including but not limited to:
 
 1. Input validations
+2. OAuth2 scheme compliance (access_token and refresh_token)
+3. Implement other critical components of an assets exchange, so that this may be a fully working exchange
 
 # Author
 
