@@ -28,7 +28,8 @@ app.use(
       '/users/login',
       '/users/register',
       '/orderbooks/bid',
-      'orderbooks/ask',
+      '/orderbooks/ask',
+      '/transactions',
     ],
   })
 );
