@@ -23,7 +23,13 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use(
   jwt({ secret: process.env.JWT_SECRET_KEY, algorithms: ['HS256'] }).unless({
-    path: ['/', '/users/login', '/users/register'],
+    path: [
+      '/',
+      '/users/login',
+      '/users/register',
+      '/orderbooks/bid',
+      'orderbooks/ask',
+    ],
   })
 );
 
