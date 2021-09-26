@@ -4,6 +4,8 @@
 
 A Proof of Concept JSON API that was designed to serve as the backend for [TukarKoin App](https://github.com/nevrending/tukarkoin-app)
 
+The TukarKoin-API.json file is a Postman Collection that serves as the API Docs
+
 ## Requirements
 
 1. Node ^14
